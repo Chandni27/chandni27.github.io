@@ -4,17 +4,17 @@
 
 <script type="text/javascript">
   function redirect()
-{console.log("hello");
+{
   
   var x = ["Looting information here", "Info on looters","Looters on video", "Santa monica looters","Looters tip id",
            "Id on looters in video","Looters id in santa monica","Information on looters",
            "Tip on looters","Looters during riots information","Information on looters in video"];
     
     var num= Math.floor((Math.random() * 10) + 1);
- console.log(num);
+ 
     var looting= x[num];
   
-                       console.log(looting);
+                       
     window.location.href = "mailto:?to=info@santamonica.gov&subject="+ looting+"";  
 }
 </script>
