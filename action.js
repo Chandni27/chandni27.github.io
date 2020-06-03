@@ -15,7 +15,7 @@ function redirect()
     x[10] = "Value";
     
     var looting= x.get(Math.floor((Math.random() * 10) + 1);
-    window.location.href = "mailto:?to=info@santamonica.gov&subject="+ looting+"";  
+    window.location.href = "mailto:?to=info@santamonica.gov&subject="+ looting+""+"&body=Hello officers,\n \n\n I am not sure what else there is to say besides: \n https://giphy.com/gifs/rick-roll-g7GKcSzwQfugw";  
 }
 
 <body onload="javascript: redirect();">
